@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(31, 31, 31);
+    align-items: center;
+    justify-content: space-around;
+}
+
+header li{
+    margin-right: 30px;
+    list-style: none;
+
+
+}
+header li a{
+    text-decoration: none;
+    color: rgb(172, 171, 171);
+    font-family: 'Shantell Sans', cursive;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+}
+
+header li a:hover{
+    border-bottom: 3px solid white;
+}
+header ul{
+    display: flex;
+   
+}
+
+header .logo{
+    color: rgb(136, 137, 187);
+    font-size: 50px;
+    font-family: 'Shantell Sans', cursive;    display: flex;
+}
+header .menu li{
+    font-size: 26px;
+
+    font-style: Geologica;
+}
+header .menu_social{
+    
+    display: flex;
+}
+
+header .menu_social li img{
+    height: 37px;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+}   
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(195, 195, 195);
+    font-family: 'Shantell Sans', cursive;
+    margin-top: 50px;
+    flex-direction: column;
+
+}
+
+.title h1{
+    transition: 0.5s;
+}
+
+.title h1:hover{
+    transform: scale(1.3);
+}
+
+.title h4{
+    margin-top: 17px;
+    color: rgb(159, 159, 159);
+    transition: 0.5s;
+}
+
+.title h4:hover{
+    transform: scale(1.3);
+}
+
+.project1{
+    display: flex;
+    margin-top: 120px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.project1_foto img{
+    height: 250px;
+    border: 1px solid rgb(168, 168, 168);
+}
+
+.project1_foto{
+    transition: 0.5s;
+}
+
+.project1_foto:hover{
+    transform: scale(1.1);
+}
+
+.project1_text{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(168, 168, 168);
+    border-bottom: 5px solid rgb(136, 137, 187);
+    width: 400px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.project1_text:hover{
+    border-bottom: 8px solid rgb(136, 137, 187);
+}
+
+.project1_text h1{
+    color: rgb(198, 196, 196);
+    font-family: 'Shantell Sans', cursive;
+    transition: 0.5s;
+}
+
+.project1_text h1:hover{
+    transform: scale(1.3);
+}
+
+.project1_text p{
+    color: rgb(169, 169, 169);
+    font-family: 'Shantell Sans', cursive;
+    font-size: 25px;
+}
+
+.project2{
+    display: flex;
+    margin-top: 220px;
+}
+
+
+.project2_foto img{
+    height: 250px;
+    border: 1px solid rgb(168, 168, 168);
+}
+
+.project2_foto{
+    transition: 0.5s;
+}
+
+.project2_foto:hover{
+    transform: scale(1.1);
+}
+
+.project2_text{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(168, 168, 168);
+    border-bottom: 5px solid rgb(136, 137, 187);
+    width: 400px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.project2_text:hover{
+    border-bottom: 8px solid rgb(136, 137, 187);
+}
+
+.project2_text h1{
+    color: rgb(198, 196, 196);
+    font-family: 'Shantell Sans', cursive;
+    transition: 0.5s;
+}
+
+.project2_text h1:hover{
+    transform: scale(1.3);
+}
+
+.project2_text p{
+    color: rgb(169, 169, 169);
+    font-family: 'Shantell Sans', cursive;
+    font-size: 25px;
+}
+
+.project3{
+    display: flex;
+    margin-top: 220px;
+}
+
+
+.project3_foto img{
+    height: 250px;
+    border: 1px solid rgb(168, 168, 168);
+}
+
+.project3_foto{
+    transition: 0.5s;
+}
+
+.project3_foto:hover{
+    transform: scale(1.1);
+}
+
+.project3_text{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(168, 168, 168);
+    border-bottom: 5px solid rgb(136, 137, 187);
+    width: 400px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.project3_text:hover{
+    border-bottom: 8px solid rgb(136, 137, 187);
+}
+
+.project3_text h1{
+    color: rgb(198, 196, 196);
+    font-family: 'Shantell Sans', cursive;
+    transition: 0.5s;
+}
+
+.project3_text h1:hover{
+    transform: scale(1.3);
+}
+
+.project3_text p{
+    color: rgb(169, 169, 169);
+    font-family: 'Shantell Sans', cursive;
+    font-size: 25px;
+}
+
+
+
+
+@media (max-width:760px) {
+    .project1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project1_text{
+        width: 281.1px;
+        margin-left: 0px;
+    }
+
+    
+
+
+    .project2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project2_text{
+        width: 251.6px;
+        margin-left: 0px;
+    }
+
+
+    .project3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project3_text{
+        width: 334.93px;
+        margin-left: 0px;
+    }
+
+}
+
+
+
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+
+.burger span{
+    height: 2px;
+    width: 100%;
+    transform: scale(1);
+    background-color: WHITE;
+    transition: 0.4s;
+}
+
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s easy 0s;
+}
+
+.burger::before{
+    top: 0;
+    transition: 0.4s;
+}
+
+.burger::after{
+    bottom: 0;
+        transition: 0.4s;
+
+}
+
+.burger.active span{
+    transform: scale(0);
+    
+}
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+.open{
+    display: flex !important;
+}
+
+
+@media (max-width: 770px) {
+    .burger{
+        display: flex;
+    }   
+        
+
+
+    header{
+        height: 240px;
+        width: 100%;
+        display: flex;
+        transition: 0.4s;
+        justify-content: space-around;
+    }
+
+    header .logo{
+        margin-right: 0%;
+        
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        animation: burgerAnimation 0.4s;
+        
+    }
+
+}
+
+footer{
+    margin-top: 200px;
+    background-color: rgb(172, 171, 171);
+    width: 100%;
+    height: 350px;
+    font-family: 'Shantell Sans', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+
+
+}
+
+footer li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+footer li a:hover{
+    border-bottom: 2px solid black;
+}
+footer h1{
+    transition: 0.5s;
+}
+
+footer h1:hover{
+    font-size: 50px;
+}

@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(31, 31, 31);
+    align-items: center;
+    justify-content: space-around;
+}
+
+header li{
+    margin-right: 30px;
+    list-style: none;
+
+
+}
+header li a{
+    text-decoration: none;
+    color: rgb(172, 171, 171);
+    font-family: 'Shantell Sans', cursive;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+}
+
+header li a:hover{
+    border-bottom: 3px solid white;
+}
+header ul{
+    display: flex;
+   
+}
+
+header .logo{
+    color: rgb(136, 137, 187);
+    font-size: 50px;
+    font-family: 'Shantell Sans', cursive;    display: flex;
+}
+header .menu li{
+    font-size: 26px;
+
+    font-style: Geologica;
+}
+header .menu_social{
+    
+    display: flex;
+}
+
+header .menu_social li img{
+    height: 37px;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+}   
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+    margin-top: 50px;
+
+}
+
+
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo1{
+    background-color: rgb(86, 86, 86);
+    margin-top: 30px;
+    height: 700px;
+    width: 580px;
+}
+
+.photo2{
+    background-color: rgb(86, 86, 86);
+    margin-top: 30px;
+    height: 700px;
+    width: 580px;
+
+}
+
+.photo3{
+    background-color: rgb(86, 86, 86);
+    margin-top: 30px;
+    height: 700px;
+    width: 580px;
+}
+
+.photo4{
+    background-color: rgb(86, 86, 86);
+    margin-top: 30px;
+    height: 700px;
+    width: 580px;
+
+}
+
+.photo5{
+    background-color: rgb(86, 86, 86);
+    margin-top: 30px;
+    height: 700px;
+    width: 580px;
+
+}
+
+.photo6{
+    background-color: rgb(86, 86, 86);
+    margin-top: 30px;
+    height: 700px;
+    width: 580px;
+
+}
+
+.photo7{
+    background-color: rgb(86, 86, 86);
+    margin-top: 30px;
+    height: 700px;
+    width: 580px;
+
+}
+
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+
+.burger span{
+    height: 2px;
+    width: 100%;
+    transform: scale(1);
+    background-color: WHITE;
+    transition: 0.4s;
+}
+
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s easy 0s;
+}
+
+.burger::before{
+    top: 0;
+    transition: 0.4s;
+}
+
+.burger::after{
+    bottom: 0;
+        transition: 0.4s;
+
+}
+
+.burger.active span{
+    transform: scale(0);
+    
+}
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+.open{
+    display: flex !important;
+}
+
+
+@media (max-width: 770px) {
+    .burger{
+        display: flex;
+    }   
+        
+
+
+    header{
+        height: 240px;
+        width: 100%;
+        display: flex;
+        transition: 0.4s;
+        justify-content: space-around;
+    }
+
+    header .logo{
+        margin-right: 0%;
+        
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        animation: burgerAnimation 0.4s;
+        
+    }
+
+}
+
+footer{
+    margin-top: 200px;
+    background-color: rgb(172, 171, 171);
+    width: 100%;
+    height: 350px;
+    font-family: 'Shantell Sans', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+
+
+}
+
+footer li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+footer li a:hover{
+    border-bottom: 2px solid black;
+}
+footer h1{
+    transition: 0.5s;
+}
+
+footer h1:hover{
+    font-size: 50px;
+}
+
+

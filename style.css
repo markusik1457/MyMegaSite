@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(31, 31, 31);
+    align-items: center;
+    justify-content: center;
+}
+
+header li{
+    margin-right: 30px;
+    list-style: none;
+
+
+}
+header li a{
+    text-decoration: none;
+    color: rgb(172, 171, 171);
+    font-family: 'Shantell Sans', cursive;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+}
+
+header li a:hover{
+    border-bottom: 3px solid white;
+}
+header ul{
+    display: flex;
+   
+}
+
+header .logo{
+    color: rgb(136, 137, 187);
+    font-size: 50px;
+    font-family: 'Shantell Sans', cursive;    display: flex;
+    margin-right: 300px;
+}
+header .menu li{
+    font-size: 26px;
+
+    font-style: Geologica;
+}
+header .menu_social{
+    
+    display: flex;
+}
+
+header .menu_social li img{
+    height: 37px;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+}   
+
+.Hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+
+  
+    
+}
+.Hello img{
+    height: 500px;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+
+.Hello img:hover{
+    transform: scale(1.2);
+}
+.Hello p{
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+    margin: 70px;
+    font-size: 40px;
+    transition: 0.7s;
+}
+
+.Hello p:hover{
+    font-size: 50px;
+}
+
+.title1{
+    color: rgb(136, 137, 187);
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 30px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.AboutMe{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.AboutMe .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 330px;
+    height: 220px;   
+    font-size: 20px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 20%;
+    font-family: 'Shantell Sans', cursive;
+    border: 1px solid rgb(176, 176, 176);
+    transition: 0.5s;
+}
+
+.AboutMe .one:hover{
+    transform: scale(1.2);
+    
+}
+
+.AboutMe .one p{
+    margin: 15px;
+    
+
+}
+
+.AboutMe .two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 330px;
+    height: 220px;   
+    font-size: 20px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 20%;
+    font-family: 'Shantell Sans', cursive;
+    border: 1px solid rgb(176, 176, 176);
+    transition: 0.5s;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.AboutMe .two p{
+    margin: 15px;
+    
+
+}
+
+.AboutMe .two:hover{
+    transform: scale(1.2);
+
+}
+
+.AboutMe .three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 330px;
+    height: 220px;   
+    font-size: 20px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 20%;
+    font-family: 'Shantell Sans', cursive;
+    border: 1px solid rgb(176, 176, 176);
+    transition: 0.5s;
+}
+
+
+.AboutMe .three p{
+    margin: 15px;
+    
+
+
+}
+
+.AboutMe .three:hover{
+    transform: scale(1.2);
+    
+}
+
+.title2{
+    color: rgb(136, 137, 187);
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 30px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+
+.skills{
+
+    display: grid;
+    grid-template-columns: 430px 430px 430px;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    grid-column-gap:50px;
+    margin-top: 50px;
+    font-family: 'Shantell Sans', cursive;
+
+}
+
+.skills .robots{
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(176, 176, 176);
+    
+}
+
+.skills .robots p{
+    margin: 10px;
+}
+
+.skills h4{
+    color: rgb(136, 137, 187);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.skills .web{
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(176, 176, 176);
+    font-family: 'Shantell Sans', cursive;
+    
+}
+
+.skills .web p{
+    margin: 10px;
+}
+
+.skills .languages{
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(176, 176, 176);
+    font-family: 'Shantell Sans', cursive;
+    
+}
+
+.skills .languages p{
+    margin: 10px;
+}
+
+.open{
+    display: flex !important;
+}
+
+
+
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+
+.burger span{
+    height: 2px;
+    width: 100%;
+    transform: scale(1);
+    background-color: WHITE;
+    transition: 0.4s;
+}
+
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s easy 0s;
+}
+
+.burger::before{
+    top: 0;
+    transition: 0.4s;
+}
+
+.burger::after{
+    bottom: 0;
+        transition: 0.4s;
+
+}
+
+.burger.active span{
+    transform: scale(0);
+    
+}
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+@media (max-width:1024px){
+
+.skills{
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Shantell Sans', cursive;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.skills .web{
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(176, 176, 176);
+    font-family: 'Shantell Sans', cursive;
+    margin-top: 50px;
+}
+
+.skills .languages{
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(176, 176, 176);
+    font-family: 'Shantell Sans', cursive;
+    margin-top: 50px;
+}
+
+.AboutMe .one{
+        height: 300px;
+
+}
+
+.AboutMe .two{
+    height: 300px;
+
+}
+
+
+.AboutMe .three{
+    height: 300px;
+}
+
+
+}
+
+
+@media (max-width: 768px) {
+    .burger{
+        display: flex;
+    }   
+
+    
+    .Hello{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        flex-direction: column;
+        
+    
+      
+        
+    }
+    .Hello img{
+        height: 400px;
+        border-radius: 5%;
+        transition: 0.5s;
+    }
+
+
+    .block{
+        background: black;
+        position: absolute;
+        z-index: 100;
+    }
+
+    header{
+        height: 240px;
+        width: 100%;
+        display: flex;
+        transition: 0.4s;
+        justify-content: space-around;
+    }
+
+    header .logo{
+        margin-right: 0%;
+        
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        animation: burgerAnimation 0.4s;
+        
+    }
+
+
+    .Hello img{
+        height: 500px;
+        border-radius: 5%;
+    }
+    
+    .Hello img:hover{
+        transform: scale(1);
+    }
+
+    
+    .Hello p:hover{
+        font-size: 40px;
+    }
+
+
+
+.AboutMe{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.AboutMe .one{
+    border-radius: 0%;
+}
+
+.AboutMe .two{
+    margin-top: 50px;
+    border-radius: 0%;
+}
+
+
+.AboutMe .three{
+    border-radius: 0%;
+    margin-top: 50px;
+}
+
+
+
+
+.skills{
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Shantell Sans', cursive;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.skills .web{
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(176, 176, 176);
+    font-family: 'Shantell Sans', cursive;
+    margin-top: 50px;
+}
+
+.skills .languages{
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(176, 176, 176);
+    font-family: 'Shantell Sans', cursive;
+    margin-top: 50px;
+}
+
+
+
+}
+
+
+
+
+@media(max-width: 400px){
+    .Hello img{
+        height: 360px;
+    }
+
+    .AboutMe .one{
+    width: 310px;    
+    }
+    
+    .AboutMe .two{
+        width: 310px;
+    }
+    
+    
+    .AboutMe .three{
+        width: 310px;
+    }
+
+
+
+}
+
+@keyframes burgerAnimation {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+footer{
+    margin-top: 200px;
+    background-color: rgb(172, 171, 171);
+    width: 100%;
+    height: 350px;
+    font-family: 'Shantell Sans', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+
+
+}
+
+footer li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+footer li a:hover{
+    border-bottom: 2px solid black;
+}
+footer h1{
+    transition: 0.5s;
+}
+
+footer h1:hover{
+    font-size: 50px;
+}
+
+
+

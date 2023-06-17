@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gallery-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo"><p>SM</p></div>
+        <div class="menu">
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html #yak1">About me</a></li>
+                    <li><a href="index.html #yak2">My skills</a></li>
+                    <li><a href="projects.html" target="_blank">My projects</a></li>
+                    <li><a href="gallery.html">My gallery</a></li>
+
+                     <div class="menu_social">
+                        <li><a href="https://www.instagram.com/mark_sm_offical/"><img src="img/instagram (1).png" alt=""></a></li>
+                        <li><a href="https://web.telegram.org/k/#@vlogsmm22"><img src="img/telgram.png" alt=""></a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="burger">
+            <span></span>
+        </div>
+
+        
+    </header>
+
+
+
+    <div class="gallery">
+        <div class="photo1"></div>
+        <div class="photo2"></div>
+        <div class="photo3"></div>
+        <div class="photo4"></div>
+        <div class="photo5"></div>
+        <div class="photo6"></div>
+        <div class="photo7"></div>
+    </div>
+
+
+
+
+
+
+    <footer>
+        <h1>SMERTENKO MARK</h1>
+        <li><a href="#yak1">About me</a></li>
+        <li><a href="#yak2">My skills</a></li>
+        <li><a href="projects.html">My projects</a></li>
+        
+
+    </footer>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+           $("#menu").on("click","a", function (event) {
+               event.preventDefault();
+               var id  = $(this).attr('href'),
+                   top = $(id).offset().top;
+               $('body,html').animate({scrollTop: top}, 1500);
+           });
+       });
+       </script>
+
+       <script>
+        document.querySelector('.burger').addEventListener('click', function(){
+                this.classList.toggle('active');
+                document.querySelector('nav ul').classList.toggle('open');
+        })
+        </script>
+</body>
+</html>
